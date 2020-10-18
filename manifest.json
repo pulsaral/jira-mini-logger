@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "JIRA Mini Logger",
+  "description": "This extension provides a little progress bar to help you quickly check your daily logged hours. Works on V7.7.1",
+  "version": "1.0",
+  "icons": {
+	"32": "icons/icon_32.png",
+	"48": "icons/icon_48.png",
+	"64": "icons/icon_64.png"
+  },
+  "browser_action": {
+	"default_icon": "icons/icon_32.png"
+  },
+  "content_scripts": [
+	   {
+		 "matches": ["*://<JIRA_IP>:*/*/*"],
+		 "js": [
+		  "js/jquery.js",
+		  "js/contentScript.js"
+		  ]
+	   }
+   ]
+}
