@@ -1,6 +1,6 @@
 # jira-mini-logger
 This **chrome extension** provides a little progress bar to help you quickly check your daily logged hours.
-**Works on Jira V7.7.1**
+# Works and tested on Jira V7.7.1.**
 
 ![Image of progress bar](https://i.redd.it/ifk9ole1v5s51.jpg)
 
